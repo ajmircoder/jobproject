@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.logo{
+ color: #292826 !important;
+}
+/* navbar share button */
+.shr-btn{
+  background: #55c9ffff;
+}
+/* navbar download button */
+.download-btn{
+ background: #435161ff;
+}
+
+.grid-div{
+    grid-template-columns: min-content 1fr;
+}
